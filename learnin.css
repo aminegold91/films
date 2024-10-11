@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.card{
+    width: 100%;
+    height: 420px;
+    background-color: rgb(133, 133, 139);
+}
+nav{
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+nav .logo{
+    padding: 0 10px;
+    height: 40px;
+    background-color: brown;
+    margin-left: 10px ;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    border-radius: 8px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+nav .logo span{
+    color: rgb(66, 234, 15);
+}
+nav .btn{
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+    margin-right: 10px ;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+.xrap{
+    padding: 20px;
+    background-color: teal;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.film{
+    /* border: 1px solid red; */
+    /* width: 250px; */
+    margin: 10px;
+}
+.film .c-film{
+    /* width: 250px;
+    height: 250px; */
+    /* border: 1px solid; */
+    background-color: chocolate;
+}
+.film .img{
+    /* width: 250px; */
+    height: 40px;
+    /* border: 1px solid ; */
+    background-color: rgb(135, 222, 136);
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: black;
+}
